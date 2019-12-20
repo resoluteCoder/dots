@@ -1,0 +1,134 @@
+body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background:#2B2D42;
+    font-family: 'Righteous', san-serif;
+}
+
+/* MENU  */
+.menu {
+    color:white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#note {
+    padding:0 25px;
+}
+
+.title {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#dot-title {
+    font-size: 60px;
+    letter-spacing: 0;
+}
+
+.primary-color {
+    color: #EF233C;
+}
+
+.dot-size {
+    font-size: 125px;
+}
+
+.play-btn {
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    background:#EF233C;
+    border-radius: 18px;
+    width: 145px;
+    box-shadow: 0 5px #D90429;
+    box-sizing: border-box;
+}
+
+.space {
+    margin: 35px 0;
+}
+
+.menu-btns .btn:nth-child(1) {
+    margin-top:10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color:#2B2D42;
+}
+
+.btn:active {
+    transform: translateY(3px);
+}
+
+.menu p {
+    letter-spacing: 1px;
+}
+#note {
+    margin-top: 50px;
+}
+
+
+
+/* READY SET GO */
+.ready {
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    margin-top:200px;
+}
+
+
+#stats{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    padding:15px;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 1px;
+    display: none;
+}
+
+#stats strong:nth-child(1) {
+    margin-right: 20px;
+}
+
+/* WIN */
+.status-screen {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    display: none;
+}
+.status-screen ul {
+    margin: 25px 0;
+    padding:0;
+}
+
+.win-btns, .lose-btns, .bonus-btns {
+    display: inline-block;
+}
+
+.bonus-btns .btn {
+    width: 180px;
+}
+
+.status-screen ul li {
+    list-style-type: none;
+    display:inline-block;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.status-screen ul li:nth-child(2) {
+    margin-left:10px;
+}
+
+/* LOSE */
